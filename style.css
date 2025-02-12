@@ -1,5 +1,5 @@
 :root {
-  --primary-clr: #b38add;
+  --primary-clr: #8add99;
 }
 * {
   margin: 0;
@@ -27,7 +27,7 @@ body {
   align-items: center;
   justify-content: center;
   padding-bottom: 30px;
-  background-color: #e2e1dc;
+  background-color: #e2dedc;
 }
 .container {
   position: relative;
@@ -35,11 +35,11 @@ body {
   min-height: 850px;
   margin: 0 auto;
   padding: 5px;
-  color: #fff;
+  color: #3a8888ca;
   display: flex;
 
   border-radius: 10px;
-  background-color: #373c4f;
+  background-color: #28a78e;
 }
 .left {
   width: 60%;
@@ -264,11 +264,12 @@ body {
 .right .today-date .event-day {
   font-size: 2rem;
   font-weight: 500;
+  color: #3b3b3e;
 }
 .right .today-date .event-date {
   font-size: 1rem;
   font-weight: 400;
-  color: #878895;
+  color: #3b3b3d;
 }
 .events {
   width: 100%;
@@ -290,8 +291,8 @@ body {
   gap: 5px;
   padding: 0 20px;
   padding-left: 50px;
-  color: #fff;
-  background: linear-gradient(90deg, #3f4458, transparent);
+  color: #0b0b0b47;
+  background: linear-gradient(90deg, #858ec1, transparent);
   cursor: pointer;
 }
 /* even event */
@@ -305,6 +306,7 @@ body {
   display: flex;
   align-items: center;
   pointer-events: none;
+  color: #323030;
 }
 .events .event .title .event-title {
   font-size: 1rem;
@@ -316,17 +318,17 @@ body {
   font-size: 0.5rem;
 }
 .events .event:hover i {
-  color: #fff;
+  color: #323030;
 }
 .events .event .event-time {
   font-size: 0.8rem;
   font-weight: 400;
-  color: #878895;
+  color: #2f2f32;
   margin-left: 15px;
   pointer-events: none;
 }
 .events .event:hover .event-time {
-  color: #fff;
+  color: #232222;
 }
 /* add tick in event after */
 .events .event::after {
@@ -356,8 +358,8 @@ body {
   align-items: center;
   justify-content: center;
   font-size: 1rem;
-  color: #878895;
-  border: 2px solid #878895;
+  color: #d4d6dc;
+  border: 2px solid #5f5f65;
   opacity: 0.5;
   border-radius: 50%;
   background-color: transparent;
@@ -377,7 +379,7 @@ body {
   justify-content: center;
   font-size: 1.5rem;
   font-weight: 500;
-  color: #878895;
+  color: #3e3f43;
 }
 .add-event-wrapper {
   position: absolute;
@@ -387,7 +389,7 @@ body {
   max-height: 0;
   overflow: hidden;
   border-radius: 5px;
-  background-color: #fff;
+  background-color: #e7e2e2;
   transform: translateX(-50%);
   transition: max-height 0.5s ease;
 }
@@ -440,10 +442,10 @@ body {
   padding: 0 10px;
   font-size: 1rem;
   font-weight: 400;
-  color: #373c4f;
+  color: #444550;
 }
 .add-event-body .add-event-input input::placeholder {
-  color: #a5a5a5;
+  color: #444141;
 }
 .add-event-body .add-event-input input:focus {
   border-bottom: 1px solid var(--primary-clr);
@@ -546,13 +548,5 @@ body {
   padding: 10px;
   font-size: 12px;
   color: #fff;
-  background-color: #b38add;
-}
-.credits a {
-  color: #fff;
-  text-decoration: none;
-  font-weight: 600;
-}
-.credits a:hover {
-  text-decoration: underline;
+  background-color: #ca8add;
 }
